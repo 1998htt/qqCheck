@@ -1,0 +1,40 @@
+.content_wrap{
+    width:300px;
+    margin:0 auto;
+}
+.qq_number{
+    margin-bottom:20px;
+}
+.qq_number .qq_border{
+    border-left-width:0px;
+    border-top-width:0px;
+    border-right-width:0px;
+    border-bottom-width:1px;
+    outline:none;
+    /* outline:0 */
+}
+.qq_wrap{
+    width:170px;
+    height:60px;
+    border:1px solid #000;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.qq_wrap .img_name{
+    border-radius: 50%;
+    width:45px;
+    height:45px;
+    margin:0 10px 0 5px;
+
+}
+.qq_wrap .qq_text{
+    width:100px;
+    overflow:hidden; 
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+}
+.qq_wrap .qq_item{
+    color: rgb(117, 114, 114);
+}
